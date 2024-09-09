@@ -1,7 +1,9 @@
 services:
   saleor-dashboard:
+    image: ghcr.io/saleor/saleor-dashboard:latest 
     ports:
       - "9002:9002"
+
   api:
     image: ghcr.io/saleor/saleor:3.20
     ports:
